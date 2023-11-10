@@ -57,3 +57,51 @@ puzzles.
 Create a mechanism for selecting puzzle difficulty levels.
 
 # Pencil-And-Paper Algorithm: 
+```bash
+Pencil-and-paper (puzzle [][]){
+puzzle [][]
+Solve the puzzle{
+For 1 to 10
+Naked Single Method (puzzle[][])
+check all rows (puzzle[][]) //check if there is only one candidate
+that
+is missing, place that missing digit in the empty square
+check all columns (puzzle[][])
+check all boxes (puzzle[][])
+}
+If the puzzle is solved: print
+Otherwise: recursiveBacktracking (puzzle[][])
+Print the solved puzzle
+}
+```
+
+# The Backtracking algorithm: 
+```bash
+recursiveBacktrackning(Puzzle[][]){
+Puzzle [][] //global
+solvePuzzle(row,col){
+if (no more choices): the puzzle is solved!
+If (puzzle[row][col]= notEmpty):
+move to the next square.
+for 1 to 9: if(checkRow(row,col,digit) & checkCol(row,col,digit) &
+checkBox(row,col,digit){
+puzzle[row][col]= digit;
+move to the next square
+}
+if not valid number is found go the previous square that was recently filled
+}
+}
+```
+# Conclusion:
+The Sudoku Solver project, with its focus on providing a comprehensive solution for
+Sudoku puzzle enthusiasts, is expected to yield positive outcomes. The anticipated
+results include the successful development of a user-friendly application capable of
+solving Sudoku puzzles of varying difficulty levels. This application will offer a rich
+user experience, incorporating features such as puzzle generation, customization, hint
+systems, and accessibility enhancements. It will provide efficient and accurate
+solutions to Sudoku puzzles while safeguarding user data and privacy.
+
+# AUTHERS:
+1. ABHISEK BAG/21BCS9333@cuchd.in
+2. Khushi Ranjana/21BCS9320@cuchd.in
+3. Pragya/21BCS9346@cuchd.in
