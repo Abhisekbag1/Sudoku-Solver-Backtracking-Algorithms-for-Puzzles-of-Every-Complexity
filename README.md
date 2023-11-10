@@ -101,7 +101,7 @@ user experience, incorporating features such as puzzle generation, customization
 systems, and accessibility enhancements. It will provide efficient and accurate
 solutions to Sudoku puzzles while safeguarding user data and privacy.
 
-# AUTHERS:
+# AUTHORS:
 1. ABHISEK BAG/21BCS9333@cuchd.in
 2. Khushi Ranjana/21BCS9320@cuchd.in
 3. Pragya/21BCS9346@cuchd.in
